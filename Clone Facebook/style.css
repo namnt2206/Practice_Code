@@ -1,0 +1,82 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    top: 0;
+    left: 0;
+    width: 375px;
+    height: 500px;
+}
+.container{
+
+    margin: 10px;
+}
+
+/* Top */
+
+.container .top{
+    position: fixed;  /*Bỏ thuộc tính này các phần tử trong phần top bị xuống dòng*/
+    height: 70px;
+    background-color: #4965AE ;
+}
+
+.container .top .menu{
+    margin: 14px;
+    height: 42px;
+}
+.container .top .icon-twitter{
+    float: left;
+}
+.container .top .fa {
+    line-height: 42px;
+    font-size: 35px;
+    width: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+.container .top .fa-twitter{
+    color: white;
+}
+
+.container .top .input-text{
+    float: left;
+    margin: 0 32px;
+    height: 42px;
+}
+.container .top .input-text .material-icons{
+    float: left;
+    line-height: 42px;
+    font-size: 30px;
+    width: 45px;
+    text-align: center;
+    color: white;
+}
+.container .top .input-text .input-search {
+    float: left;
+    line-height: 42px;
+
+}
+.container .top .input-text .input-search .input-btn {
+    height: 30px;
+    font-size: 20px;
+    background-color: #335089;
+    border-radius: 15px;
+    border: 1px;
+    text-align: center;
+    color: #fff;
+    
+}
+::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+.container .top .icon-instagram{
+    float: left;
+}
+.container .top .fa-instagram{
+    color: white;
+}
+
+
