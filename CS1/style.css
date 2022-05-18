@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    display: grid;
+    background-color: #4D636F;
+    height: 50px;
+    grid-template-columns: repeat(5, auto) 1fr;
+    /* repeat(x,y) voi columns y=width
+    repeat(x,y) voi rows y=height
+    */
+}
+
+
+.header>div {
+    padding: 12px 24px;
+    color: #fff;
+
+}
+
+.header>div:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+
+.fa-solid {
+    font-size: 20px;
+}
+
+
+.header .logo {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: #3A4B53;
+}
+
+.logo .logo-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Phan than */
+.header .myaccount {
+    justify-self: right;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+    padding: 16px;
+}
+
+.left,
+.mid,
+.right {
+    border: 1px solid #000;
+}
+
+.left {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 30px;
+}
+
+.left1 {
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    padding: 0 15px;
+    border: 1px solid #000;
+}
+
+.left1 .avatar-box {
+    text-align: center;
+}
+
+.left1 .avatar-box .name {
+    margin: 10px 0;
+    font-size: 21px;
+}
+
+.left1 .avatar-box .avatar {
+    margin: 15px 0;
+}
+
+.left1 .avatar-box .avatar .fa-circle-user {
+    font-size: 100px;
+    color: #629CCA;
+}
+
+.left1 .information>div {
+    margin: 15px 0;
+}
+
+.left1 .information .fa-solid {
+    margin-right: 16px;
+    color: #6A99C0;
+    font-size: 15px;
+    width: 20px;
+}
+
+.left2 {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    border: 1px solid #000;
+    background-color: #7D97A5;
+    color: #fff;
+}
+
+.left2>div {
+    padding: 8px 16px;
+}
+
+.left2>div:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.left2 .fa-solid {
+    margin-right: 16px;
+    font-size: 15px;
+    width: 20px;
+}
+
+.left3 {
+    padding: 0 16px;
+    border: 1px solid #000;
+}
+
+.left3>div {
+    margin: 15px;
+}
+
+.left3 .theme1 {
+    background-color: #303e45;
+    color: #fff;
+    font-size: 12px;
+}
+
+.left3 .theme2 {
+    background-color: #43545c;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme3 {
+    background-color: #5c6e79;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme4 {
+    background-color: #848f94;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme5 {
+    background-color: #99a2a7;
+    color: #fff;
+    font-size: 12px;
+
+
+}
+
+.left3 .theme6 {
+    background-color: #7d868a;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme7 {
+    background-color: #697175;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme8 {
+    background-color: #767b7e;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme9 {
+    background-color: #303e45;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme10 {
+    background-color: #303e45;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme11 {
+    background-color: #303e45;
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.left3 .theme12 {
+    background-color: #303e45;
+    color: #fff;
+    font-size: 12px;
+}
+
+.left4 {
+    background-color: #ccc;
+    border: 1px solid #000;
+    padding: 0 16px;
+}
+
+.left4>div {
+    margin: 15px 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+}
